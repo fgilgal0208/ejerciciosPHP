@@ -10,6 +10,6 @@ sort($numeros);
 
 
 echo "Números generados: $n1, $n2, $n3<br>";
-echo "Orden ascendente: " . implode(", ", $numeros) . "<br>";
+echo "Orden ascendente: " . implode(" - ", $numeros) . "<br>";
 
 ?>
